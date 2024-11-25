@@ -8,13 +8,20 @@
     
 </head>
 <body>
+
+<?php
+    include 'login_handler.php';
+    ?>
+
     <div class="container">
         <div class="left">
             <div class="login-box">
                 <h2>Login</h2>
-                <input type="text" placeholder="Email Address">
-                <input type="password" placeholder="Password">
-                <button>Login</button>
+                <form action="login_handler.php" method="post">
+                    <input type="text" name="email" placeholder="Email Address" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button class="btn" type="submit">Login</button>
+                </form>
             </div>
         </div>
         <div class="right">
@@ -22,7 +29,7 @@
             <h2>Back!</h2>
             <div class="text_box">
                 <p>Don't have an <br> account?</p>
-                <a href="../signup/signup.html">Signup!</a>
+                <a href="../signup/signup.php">Signup!</a>
             </div>
             
         </div>

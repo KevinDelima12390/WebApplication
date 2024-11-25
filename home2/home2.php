@@ -10,7 +10,7 @@
 
     <div class="icon-right">
         <div class="home-icon">
-            <a href="../home/home.html">
+            <a href="../home/home.php">
                 <i class="fas fa-home"></i>
             </a>
             
@@ -43,7 +43,10 @@
         </div>
     </div>
     <div class="button-container">
+        <form action="../donation/donation.php" method="get">
         <button>Donate now!</button>
+        </form>
+        
     </div>
 </body>
 </html>

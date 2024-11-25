@@ -1,3 +1,7 @@
+<?php
+include '../php/session_checker.php'; // Ensure the user is authenticated
+?>
+
 <html></html>
 <head>
     <title>Food For All</title>
@@ -16,7 +20,9 @@
 
     <div class="icon-right">
         <div class="home-icon">
-            <i class="fas fa-home"></i>
+        <a href="../home/home.php">
+                <i class="fas fa-home"></i>
+            </a>
             
         </div>
         <img src = "../images/avatar.png"></img>
@@ -31,7 +37,7 @@
     </div>
 
     <div class="down-arrow">
-        <a href="../home2/home2.html">
+        <a href="../home2/home2.php">
             <i class="fas fa-arrow-down"></i>
         </a>
         

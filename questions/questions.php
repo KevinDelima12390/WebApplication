@@ -15,7 +15,9 @@
 
     <div class="icon-right">
         <div class="home-icon">
-            <i class="fas fa-home"></i>
+        <a href="../home/home.php">
+                <i class="fas fa-home"></i>
+            </a>
             
         </div>
         <img src = "../images/avatar.png"></img>

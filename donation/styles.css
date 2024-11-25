@@ -55,20 +55,29 @@ body, html {
 }
 .amount{
     padding-top: 50px;
+    display:flex;
 }
 .amount input{
-    width: 218;
+    width: 218px !important;
     font-size: 150px;
     height: 141;
     background-color: transparent; 
     border: transparent; 
     color: white;
     padding-left: 20px;
+    
+}
+.text-amount{
+    padding-bottom: 30px;
 }
 .amount span{
     font-size: 150px;
     padding-left: 35px;
     
+}
+.right form{
+    display:flex;
+    padding-left: 100px;
 }
 .right button {
     background-color: #00cc66;
@@ -82,6 +91,9 @@ body, html {
     width: 318px;
     height: 55px;
     border-radius: 30px;
+    position: absolute;
+    left: 57%;
+    top: 53%;
     
     
 }
