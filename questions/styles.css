@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: url('../images/question.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1029px;
+    height: 597px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.left {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    width: 408px;
+    height: 537px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+.textbox{
+    width: 392px;
+    height: 56px;
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+.paperclip{
+    position: absolute;
+    top: 86%;
+    padding-left: 15px;
+}
+.sendbtn{
+    position: absolute;
+    top: 86%;
+    left: 35%;
+}
+
+
+.left input {
+    width: 408px;
+    height: 46px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+.left input::placeholder {
+    color: #888;
+    padding-left: 30px;
+}
+.left .fa-paperclip {
+    margin-right: 10px;
+    color: #888;
+}
+.right {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+.right h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.right p {
+    margin: 10px 0 0;
+}
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.header .logo {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.header .icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.header .icons .icon {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icon {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50px; 
+    padding: 10px;
+    width: 81px;
+    height:88px;
+}
+.circle{
+    width: 70px;
+    height: 70px; 
+    border: 2.5px solid #000; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.icon-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+.icon-right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 0px; 
+    padding: 10px;
+    width: 200px;
+    height:90px;
+    display: flex;
+    
+}
+.home-icon{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    padding-left: 40px;
+}
+
+.icon-right img{
+    padding-left: 40px;
+    padding-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    
+}

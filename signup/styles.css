@@ -1,0 +1,159 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: url('../images/login.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    color: white;
+}
+
+.left h1 {
+    font-size: 128px;
+    margin: 0;
+    line-height: 0.9;
+    padding-left: 120px;
+}
+
+.left .highlight {
+    color: white; 
+    font-size: 96px;
+}
+
+.text_box{
+    display: flex;
+    text-align: inline;
+    margin-left: 120px;
+    margin-top: 30%;
+}
+
+.text_box p {
+    position: absolute;
+    
+    
+}
+.text_box a{
+    position: absolute;
+    right: 65%;
+    font-size: large;
+    
+    
+}
+.login-link{
+    text-decoration: none;
+}
+
+.left .subtext {
+    font-size: 1.9em;
+    margin-top: 20px;
+}
+
+.left .login-link {
+    margin-top: 10px;
+    font-size: 2.8em;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.left .login-link:hover {
+    text-decoration: underline;
+}
+
+.highlight{
+    text-align: center;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid black;
+    text-align: center;
+}
+
+
+.signup-box {
+    height: 536px;
+    width: 442px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.34);
+    
+}
+
+.signup-box h2 {
+    font-size: 64px;
+    color: white;
+    margin: 0 0 20px;
+    padding-bottom: 25px;
+}
+
+.signup-box input {
+    width: 352px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.318);
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid white;
+    transition: background 0.3s ease;
+}
+
+.signup-box input::placeholder {
+    color: white;
+}
+
+.signup-box input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #32cd32;
+}
+
+.signup-box button {
+    width: 150px;
+    height: 44px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.318);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background 0.3s ease;
+}
+
+.signup-box button:hover {
+    background: #32cd32;
+    border: 1px solid #28a428;
+    color: white;
+}

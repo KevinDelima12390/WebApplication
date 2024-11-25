@@ -1,0 +1,137 @@
+.icon {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50px; 
+    padding: 10px;
+    width: 81px;
+    height:88px;
+}
+.circle{
+    width: 70px;
+    height: 70px; 
+    border: 2.5px solid #000; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    z-index: auto;
+}
+.icon-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+}
+.icon-right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 0px; 
+    padding: 10px;
+    width: 200px;
+    height:90px;
+    display: flex;
+    
+}
+.home-icon{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    padding-left: 40px;
+}
+
+.icon-right img{
+    padding-left: 40px;
+    padding-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+.header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.header span {
+    display: block;
+    font-size: 128px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/home2.png');
+    background-size: cover;
+    padding: 20px;
+    width: auto;
+    height: 608px;
+}
+.card {
+    background: rgba(0, 0, 0, 0.484);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 360px;
+    height: 347px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(11, 11, 11, 0.443);
+    color: white;
+}
+.card p,h2{
+    color: white;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+.card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.button-container {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    left: 41%;
+    top: 85%;
+}
+.button-container button {
+    background-color: #2CFF87;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: black;
+    width: 349px;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-container button:hover {
+    background-color: #00cc00;
+}
+
+
