@@ -12,9 +12,11 @@ include '../php/session_checker.php'; // Ensure the user is authenticated
 <body>
    <section class="section-one">
     <div class="icon">
-        <div class="circle">
-            <span class="icon-text">FFA</span>
-        </div>
+    <a href="../questions/questions.php">
+    <div class="circle">
+        <span class="icon-text">FFA</span>
+    </div>
+    </a>
         
     </div>
 
@@ -25,7 +27,9 @@ include '../php/session_checker.php'; // Ensure the user is authenticated
             </a>
             
         </div>
-        <img src = "../images/avatar.png"></img>
+        <a href="../profile/profile.php">
+        <img src="../images/avatar.png" alt="Avatar">
+        </a>
         
     </div>
 

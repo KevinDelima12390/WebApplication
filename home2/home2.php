@@ -16,7 +16,9 @@
             
             
         </div>
-        <img src = "../images/avatar.png"></img>
+        <a href="../profile/profile.php">
+        <img src="../images/avatar.png" alt="Avatar">
+        </a>
         
     </div>
     <div class="header">

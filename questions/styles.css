@@ -50,15 +50,18 @@ body, html {
 }
 
 
+
 .left input {
-    width: 408px;
-    height: 46px;
+    position: absolute;
     padding: 10px;
     border: none;
     border-radius: 30px;
     background: #f0f0f0;
     display: flex;
     align-items: center;
+    padding-left: 30px;
+    left: 25%;
+    top: 50%;
 }
 .left input::placeholder {
     color: #888;
@@ -180,4 +183,101 @@ body, html {
     height: 60px;
     border-radius: 30%;
     
+}
+
+/* Chat Section */
+.comments-section {
+    width: 100%;
+    max-height: 517px;
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    
+   
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.comment-email {
+    font-size: 14px;
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.comment-timestamp {
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+}
+
+/* No Comments Message */
+.no-comments {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 15px;
+    position: absolute;
+    left: 59%;
+    top: 65%;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    outline: none;
+    width: 319px;
+}
+
+
+
+.input-section .sendbtn {
+    background: #ffcc00;
+    color: white;
+    border: none;
+    
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease;
+    
+}
+
+
+.input-section .sendbtn:hover {
+    background: #ffdd44;
 }

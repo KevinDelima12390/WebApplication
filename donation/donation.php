@@ -7,9 +7,11 @@
 </head>
 <body>
     <div class="icon"></div>
+    <a href="../questions/questions.php">
     <div class="circle">
         <span class="icon-text">FFA</span>
     </div>
+    </a>
 
     <div class="icon-right">
         <div class="home-icon">
@@ -17,7 +19,9 @@
                 <i class="fas fa-home"></i>
             </a>
         </div>
+        <a href="../profile/profile.php">
         <img src="../images/avatar.png" alt="Avatar">
+        </a>
     </div>
 
     <div class="container">

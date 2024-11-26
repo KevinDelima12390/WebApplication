@@ -1,0 +1,235 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url('../images/login.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    width: 1029px;
+    height: 597px;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.email {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.edit-btn, .logout-btn {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.edit-btn:hover, .logout-btn:hover {
+    background-color: #777;
+}
+.donation-history {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 417px;
+    height: 309px;
+    margin-left: 28%;
+    
+}
+
+.icon {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 50px; 
+    padding: 10px;
+    width: 81px;
+    height:88px;
+}
+.circle{
+    width: 70px;
+    height: 70px; 
+    border: 2.5px solid #000; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.icon-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+.icon-right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0;  
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 0px; 
+    padding: 10px;
+    width: 200px;
+    height:90px;
+    display: flex;
+    
+}
+.home-icon{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    padding-left: 40px;
+}
+
+.icon-right img{
+    padding-left: 40px;
+    padding-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    
+}
+
+/* Blurred Background */
+.blurred {
+    filter: blur(5px);
+    pointer-events: none; /* Prevent interactions with blurred elements */
+}
+
+/* Pop-Up Styles */
+.popup {
+    display: none ; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 410px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 38%;
+    top: 35%;
+}
+
+.popup-content h2 {
+    margin-bottom: 20px;
+}
+
+.popup-content input {
+    width: 319px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.popup-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content .edit-btn {
+    background-color: #555;
+    color: white;
+}
+
+.popup-content .logout-btn {
+    background-color: #777;
+    color: white;
+}
+
+.popup-content .edit-btn:hover {
+    background-color: #777;
+}
+
+.popup-content .logout-btn:hover {
+    background-color: #555;
+}
+
+
+.donation-history {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 417px;
+    height: auto;
+    max-height: 300px;
+    margin-left: 28%;
+    overflow-y: auto;
+    color: white;
+}
+
+.donation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.donation-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+}
+
+.donation-list .donation-date {
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.donation-list .donation-amount {
+    font-weight: normal;
+    color: #ffffff;
+}
