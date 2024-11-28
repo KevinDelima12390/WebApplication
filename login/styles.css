@@ -1,11 +1,14 @@
+/* General styling */
 body, html {
     height: 100%;
-    width: auto;
+    width: 100%;
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background: url('../images/login.png') no-repeat center center fixed;
     background-size: cover;
 }
+
+/* Container for the two main sections (left and right) */
 .container {
     display: flex;
     width: 100%;
@@ -14,47 +17,47 @@ body, html {
     border-radius: 10px;
     overflow: hidden;
 }
+
+/* Left side (Login box area) */
 .left, .right {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     position: relative;
 }
+
+/* Left section styling */
 .left {
     background: rgba(255, 255, 255, 0);
     border-right: 5px solid black;
     align-items: center;
 }
+
+/* Right section styling */
 .right {
     background: transparent;
     color: white;
     padding-right: 40px;
-    
 }
-.right h1 {
+
+.right h1, .right h2 {
     font-size: 128px;
     margin: 0;
     text-align: right;
     padding-right: 30px;
-    
 }
-.right h2 {
 
+.right h2 {
     font-size: 96px;
-    margin: 0;
-    text-align: right;
-    padding-right: 30px;
-    
 }
+
 .right p {
     font-size: 1.5em;
     margin: 20px 0 0;
     text-align: right;
-    
-
 }
+
 .right a {
     font-family: 'Pacifico', cursive;
     font-size: 2em;
@@ -62,28 +65,34 @@ body, html {
     text-decoration: none;
     text-align: right;
 }
-.text_box{
+
+/* Text box area inside the right section */
+.text_box {
     display: flex;
     padding: 30px;
     font-size: 25px;
     margin-top: 200px;
 }
-.text_box p{
+
+.text_box p {
     position: absolute;
-    left: 0%;
+    left: 0;
     padding-left: 80px;
     text-align: left;
 }
-.text_box a{
+
+.text_box a {
     position: absolute;
-    right: 0%;
+    right: 0;
     padding-right: 80px;
     padding-top: 15px;
 }
-.text_box{
+
+.text_box {
     padding-top: 100px;
-    
 }
+
+/* Login box styling */
 .login-box {
     height: 536px;
     width: 442px;
@@ -94,8 +103,9 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
+
+/* Login box heading */
 .login-box h2 {
     margin: 0 0 20px;
     font-size: 64px;
@@ -104,8 +114,9 @@ body, html {
     color: white;
     
 }
-.login-box input {
 
+/* Input fields */
+.login-box input {
     width: 352px;
     height: 44px;
     padding: 20px;
@@ -117,17 +128,20 @@ body, html {
     text-align: center;
     border: 2px solid white;
     transition: background 0.3s ease;
-}
-.login-box ::placeholder{
-    color: white;
+    margin-left: 45px;
 }
 
+.login-box ::placeholder {
+    color: white;
+}
 
 .login-box input:focus {
     outline: none;
     background: rgba(255, 255, 255, 0.6);
     border: 2px solid #32cd32;
 }
+
+/* Submit button */
 .login-box button {
     width: 150px;
     height: 44px;
@@ -139,16 +153,19 @@ body, html {
     font-size: 1em;
     cursor: pointer;
     margin-top: 60px;
-    padding-left: 30px;
+    margin-left: 150px;
 }
-.btn{
-    position: absolute;
-    left: 50%;
-}
+
 .login-box button:hover {
     background: #32cd32;
     border: 1px solid #28a428;
     color: white;
-    
-    
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
 }
